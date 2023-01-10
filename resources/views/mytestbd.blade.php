@@ -7,7 +7,6 @@
 	  <a href="/polki/{{ $newplace->id}}"><li>шкаф {{ $newplace->id}}</li></a>
 	  @endforeach
      </form>
-	
 	 @else
 	 <p>Шкафов нет</p>
 	 @endif
