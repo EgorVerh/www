@@ -7,7 +7,6 @@
 	  <a href="/author/books/{{ $newplace->id}}"><li>{{ $newplace->name}}</li></a>
 	  @endforeach
      </form>
-	
 	 @else
 	 <p>Авторов нет</p>
 	 @endif

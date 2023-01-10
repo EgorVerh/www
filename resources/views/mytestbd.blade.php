@@ -1,4 +1,4 @@
-@extends('layout') 
+@extends('layoutstart') 
 	 @section('vvod')
 	 <h2>Shkafs</h2>
 	 @if(count ($visited))
