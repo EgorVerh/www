@@ -1,7 +1,7 @@
 <html>
 <head>
     <style>
-    .sidebarright{float:right;background-color:#D3D3D3;height:175px;width:60px; text-align: center;margin: 10px 0 0 10px}
+    .sidebarright{float:right;background-color:#D3D3D3;height:175px;width:60px; text-align: center;margin: 10px 0 0 10px;}
 
     .sidebarleft{float:left;background-color:#D3D3D3;height:175px;width:60px; text-align: center;margin: 10px 10px 0 0; }
 
