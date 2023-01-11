@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsers2Table extends Migration
+class CreateShkafTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,9 @@ class CreateUsers2Table extends Migration
      */
     public function up()
     {
-        Schema::create('booksonpolka', function (Blueprint $table) {
+        Schema::create('shkaf', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->integer('idpolka')->unsigned();
-            $table->foreign('idpolka')->references('id')->on('shkaf');
         });
     }
 
@@ -28,6 +26,6 @@ class CreateUsers2Table extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('booksonpolka');
+        Schema::dropIfExists('shkaf');
     }
 }
